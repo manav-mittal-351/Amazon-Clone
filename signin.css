@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.bigbox{
+    height: 60px;
+    width: 100%;
+    border: 2px solid transparent;
+    margin-top: 20px;
+}
+
+.bigbox .logo img{
+    height:50px ;
+    border: 2px solid transparent;
+    margin-left: 45%;
+}
+.signinbox{
+    border: 2px solid lightslategray;
+    border-radius: 4px;
+    height: 550px;
+    width: 450px;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.signinbox .signin{
+    font-weight: 40px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+label{
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+}
+.number{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    padding: 5px;
+}
+input:hover{
+    border: 2px solid orange;
+}
+.password{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.forgotpass{
+    margin-left: 160px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: lightsalmon;
+}
+.sign-in{
+    background-color: orange;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.terms{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.checkbox{
+    display: flex;
+    
+}
+.checkboxall{
+    display: flex;
+    margin-left: 20px;
+}
+.new{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.new hr{
+    transform: rotate(90deg);
+    margin-left: 15px;
+}
+.content{
+    margin-left: 15px;
+}
+.account{
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: lightgray;
+}

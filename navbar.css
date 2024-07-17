@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+}
+label.logo{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 2;
+
+}
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    font-size: large;
+    margin-right: 10px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 4;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+}
+a.active,a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    transition: .5s;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size:40px;
+        line-height: ;
+        
+    }
+    nav ul li a{
+        font-size: large;
+        align-items: center;
+    }
+}
+@media (max-width: 858px){
+    label.logo{
+        padding-left: 300px;
+        line-height: 1;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        height: 1000px;
+        width: 1000px;
+        background-color: lightgray;
+        align-items: center;
+        top: 80px;
+        left: 0;
+        
+     }
+     nav ul li{
+        display: block;
+        padding-left: 350px;
+     }
+     a.active,a:hover{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
